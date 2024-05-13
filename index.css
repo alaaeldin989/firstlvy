@@ -1,0 +1,605 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cairo:wght@200..1000&family=Kalam:wght@300;400;700&family=Koulen&family=Laila:wght@300;400;500;600;700&family=Lalezar&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;400&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+}
+
+.navbar-brand span{
+    color: #CA0000;
+}
+
+nav ul li a{
+    font-family: "Lato", sans-serif;
+    color: #000;
+    font-weight: 500;
+}
+
+nav{
+    background: #ffffff86;
+}
+
+.home{
+    background: url(img/main.png)no-repeat;
+    background-size: cover;
+}
+
+.main{
+    height: 90vh;
+}
+
+.main .container{
+    position: relative;
+    top: 30%;
+}
+
+
+ .main .container h1{
+    font-family: "Koulen", sans-serif;
+    color: #000;
+ }
+
+.main .container p{
+    font-family: "Laila", serif;
+    font-weight: bolder;
+    color: #1f1f1f;
+}
+
+.container .btn{
+    text-decoration: none;
+    color: white;
+    background: #000;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+    transition: .4s;
+}
+
+ .container .btn:hover{
+background: #343434;
+color: #fff;
+}
+
+ .container .title{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.container .title h1{
+font-weight: 600;
+}
+
+.container .title p{
+    font-size: .8rem;
+}
+
+.service .container{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.service{
+    background: url(img/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
+}
+
+#tall{
+    height: auto;
+    border: 1px solid rgba(169, 169, 169, 0.652);
+}
+
+
+.card img{
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom: 1px solid rgb(109, 109, 109);
+}
+
+#tall img{
+height: 60vh;
+}
+
+.col .card {
+    background-color: rgba(229, 229, 229, 0.854);
+}
+
+.card{
+    box-shadow: 0 3px 5px rgb(94, 94, 94);
+    transition: .4s;
+
+}
+
+.card:hover{
+    cursor: pointer;
+    transition: .4s;
+    background: #6d6d6d;
+    color: #fff;
+    transform: rotate(3deg);
+    border: 1px solid #fff;
+}
+
+.card-body{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.card-body h5{
+    font-weight: 700;
+}
+
+.card-body p{
+    font-size: .8rem;
+}
+
+
+.about{
+    background: rgb(87, 172, 194);
+    background-size: cover;
+    /* height: 10vh; */
+}
+
+.about .container {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    color: #000;
+}
+
+.about .container h2{
+    font-size: 2.5rem;
+}
+
+.about .container h2::before{
+content: "";
+position: absolute;
+margin-top: 50px;
+background: #000;
+width: 160px;
+height: 2px;
+}
+
+
+.about .container p{
+    font-family: "Laila", serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.contact{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background: url(img/contact.jpg)no-repeat;
+    background-size: cover;
+}
+
+.contact .container .cards{
+    text-align: center;
+}
+
+
+.cards .col{
+    margin-left: 10px;
+    border: 2px solid #255e6ebb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px gray;
+    background: #7bcadfbb;
+    font-family: "Noto Sans JP", sans-serif;
+    
+}
+
+
+.cards .col{
+    margin-bottom: 20px;
+
+}
+
+.cards .col:hover{
+    transition: .3s;
+    transform: rotate(5deg);
+    color: #fff;
+    background-color: #255e6ed1;
+}
+.box i{
+    background: #255e6ebb;
+    color: #000;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    font-size: 1.7rem;
+}
+
+.box h1{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: #000;
+
+}
+
+.box p{
+    font-size: .9rem;
+    font-weight: 600;
+    color: #000;
+}
+
+
+.map{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(87, 172, 194);
+    background-size: cover;
+}
+
+.map .container{
+    display: flex;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.container .maps iframe{
+    width: 100%;
+border-radius: 20px;
+outline: 1px solid gray;
+}
+
+
+.container .in{
+    /* width: 100%; */
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.in h3{
+    margin-left: 10px;
+    font-size: 1.3rem;
+}
+
+.in h1{
+text-align: center;
+font-family: "Kalam", cursive;
+}
+
+.in .red{
+    color: #CA0000;
+}
+
+.in .font{
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.in input{
+    width: 150%;
+    padding: 10px;
+    border:1px solid #949494;
+    border-radius: 15px;
+    margin-bottom: 28px;
+    background: #ededed;
+}
+
+.help{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+.help .container{
+    position: relative;
+}
+
+.container .search i{
+    position: absolute;
+    bottom: 1px;
+    right: 13px;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #b6b6b6;
+    padding: 12px;
+}
+.container .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+
+
+.search input{
+    width: 100%;
+    margin-top: 40px;
+    border: none;
+    border:1px solid rgb(185, 185, 185);
+    border-radius: 10px;
+    padding: 8px;
+    /* margin-right: 50px; */
+}
+
+.rate .title{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.rate{
+    background: #fe7;
+    padding-bottom: 30px;
+}
+
+.rate .container{
+    margin-bottom: 30px;
+    position: relative;
+width: 400px;
+/* text-align: center; */
+background: #111;
+text-align: center;
+padding: 20px 30px;
+border: 1px solid #444;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.container .post{
+    display: none;
+}
+
+.container .text{
+    font-size: 25px;
+    color: #666;
+    font-weight: 500;
+}
+
+.container .edit{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+}
+
+.container  .edit:hover{
+    text-decoration: underline;
+}
+
+.container form{
+    display: none;
+}
+
+input:checked ~ form{
+    display: block;
+}
+
+.container .star-widget input{
+display: none;
+}
+
+.star-widget label{
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+}
+
+.star-widget input:not(:checked) ~ label:hover,
+.star-widget input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+}
+
+input:checked ~ label{
+    color: #fd4;
+}
+
+input#rate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+}
+
+
+form header{
+    width: 100%;
+    font-size: 25px;
+    color: #fe7;
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+input#rate-1:checked ~ form header::before{
+content: "  Just hate it";
+}
+
+input#rate-2:checked ~ form header::before{
+content: "Don't like it";
+}
+
+input#rate-3:checked ~ form header::before{
+content: "Is awesome";
+}
+
+input#rate-4:checked ~ form header::before{
+content: "Just like it";
+}
+
+input#rate-5:checked ~ form header::before{
+content: "Just love it";
+}
+
+form .textarea{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid #333;
+    background: #222;
+    padding: 10px;
+    font-size: 17px;
+    color: #eee;
+    resize: none;
+}
+
+form .bun{
+height: 45px;
+width: 100%;
+margin: 15px 0;
+}
+
+form .bun button{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #444;
+    outline: none;
+    background: #222;
+    color: #999;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+
+    form .bun button:hover{
+        background: #1b1b1b;
+    }
+    
+    footer{
+        background: rgb(87, 172, 194);
+        color: #fff;
+    }
+
+    footer .container{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    footer .copy{
+text-align: center;
+padding-bottom: 10px;
+padding-top: 20px;
+border-top: 1px solid #ffffff88;
+}
+
+.copy h3{
+        font-size: .9rem;
+text-transform: uppercase;
+    }
+
+    .copy span{
+        color: #fd4;
+        text-transform: lowercase;
+    }
+
+    .logo h3{
+        color: #fd4;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    
+    .logo .icons i{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+    .container .foot{
+        display: flex;
+        text-align: center;
+    }
+
+    .foot h5{
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+
+    .foot i{
+        font-size: 1rem;
+    }
+
+    .icons i:hover{
+        color: #fd4;
+    }
+
+@media(max-width: 772px){
+.map .container{
+    display: block;
+    text-align: center;
+    /* padding-left: 200px; */
+}
+
+.container .in input{
+    width: 80%;
+}
+}
+
+@media(min-width: 992px){
+    .container .cards{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+
+    .contact .container .cards{
+    display: flex;
+    }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {padding-left: 300px;}
+
+    .in h1{
+        margin-left: 80px;
+    }
+}
+
+
+
+
+@media(max-width: 575px){
+    .main .container{
+        text-align: center;
+        height: 40vh;
+    }
+    
+    #tall{
+        height: 0vh;
+    }
+
+    .about .container{
+        height: 100vh;
+        text-align: center;
+    }
+
+    .contact .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media(max-width: 370px){
+    .contact .container .cards{
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
